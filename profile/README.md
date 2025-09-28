@@ -10,6 +10,7 @@ The application supports **real-time screen broadcasting** with **high-quality v
 
 - [📺 Project Description]
 - [🗂️ Project Structure]
+- [🛠️ Tech Stack]
 - [⚙️ Livestreaming Logic]
 - [✅ Result & Learnings]
 
@@ -25,18 +26,13 @@ PibbleTV was designed to replicate the core functionality of platforms like **Tw
 - Follow system  
 - Donation support for streamers  
 
-Since this is a **personal learning project**, it is not publicly hosted online.
+> ⚠️ Since this is a personal project, it is not publicly hosted online.
 
 ---
 
 ## 🗂️ Project Structure
 
 All repositories are organized within a single GitHub organization for easier navigation.  
-The tech stack:
-
-- 🖥️ **Frontend:** React (TypeScript)  
-- ⚙️ **Backend Microserices:** Spring Boot (WebFlux)
-- 🗄️ **Database:** MySQL  
 
 ### 📁 Repositories
 
@@ -52,6 +48,14 @@ The tech stack:
 | **donations-service** | Donation handling and processing |
 
 Each microservice has its **own database**, ensuring loose coupling and scalability.
+
+---
+
+## 🛠️ Tech Stack
+
+- 🖥️ **Frontend:** React (TypeScript)  
+- ⚙️ **Backend Microserices:** Spring Boot (WebFlux)
+- 🗄️ **Database:** MySQL  
 
 ---
 
